@@ -1,0 +1,47 @@
+.work__heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.work__proj {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.work__card {
+    background: #1a1919;
+    padding: 1.2rem;
+}
+
+.work__card img {
+    width: 100%;
+}
+.work__title{
+    color: #fff;
+    padding: 1rem 0;
+}
+.work__card p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.work__btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    gap: 1rem;
+}
+@media (max-width:740px) {
+    .work__proj {
+        max-width: 90%;
+        margin: auto;
+
+        grid-template-columns: 1fr;
+
+    }
+}
